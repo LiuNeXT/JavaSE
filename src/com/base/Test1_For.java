@@ -1,3 +1,5 @@
+package com.base;
+
 public class Test1_For {
     public static void main(String[] args) {
         int he = 0;

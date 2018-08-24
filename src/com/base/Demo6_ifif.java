@@ -1,4 +1,4 @@
-
+package com.base;
 
 public class Demo6_ifif {
     public static void main(String[] args) {
