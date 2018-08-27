@@ -1,4 +1,4 @@
-package com.base;
+package com.heima.Base.Day03;
 
 public class Demo_Operator1 {
     public static void main(String[] args) {

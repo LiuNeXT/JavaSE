@@ -1,4 +1,4 @@
-package com.base;
+package com.heima.Base.Day04;
 
 public class For99 {
     public static void main(String[] args) {

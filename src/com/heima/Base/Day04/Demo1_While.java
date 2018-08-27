@@ -1,4 +1,4 @@
-package com.base;
+package com.heima.Base.Day04;
 
 public class Demo1_While {
     public static void main(String[] args) {
