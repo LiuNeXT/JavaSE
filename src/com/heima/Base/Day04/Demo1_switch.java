@@ -1,3 +1,4 @@
+package com.heima.Base.Day04;
 
 public class Demo1_switch {
     public static void main(String[] args) {

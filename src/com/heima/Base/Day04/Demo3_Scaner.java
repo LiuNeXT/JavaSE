@@ -1,4 +1,4 @@
-
+package com.heima.Base.Day04;
 
 import java.util.Scanner;
 
