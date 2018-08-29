@@ -20,9 +20,9 @@ public class Demo10_Array {
             //arr[1]和arr[arr.length-1-1]交换
             //arr[2]和arr[arr.lentth-1-2]
             //...
-            int temp = arr[i];
-            arr[i] = arr[arr.length-1-i];
-            arr[arr.length-1-i] = temp;
+            int temp = arr[i];                  //赋值到Temp
+            arr[i] = arr[arr.length-1-i];       //倒换赋值
+            arr[arr.length-1-i] = temp;         //反倒换赋值
         }
     }
 
