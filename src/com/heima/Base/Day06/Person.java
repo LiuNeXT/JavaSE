@@ -1,6 +1,6 @@
 package com.heima.Base.Day06;
 
-public class Pserson {
+public class Person {
     private String name;
     private int age;
 
@@ -10,8 +10,6 @@ public class Pserson {
         this.name = name;
         this.age = age;
     }
-
-
 
     public String getName() {
         return name;
@@ -28,7 +26,8 @@ public class Pserson {
     public void setAge(int age) {
         this.age = age;
     }
+
+    protected void print(){
+        System.out.println("Print");
+    }
 }
-
-
-
