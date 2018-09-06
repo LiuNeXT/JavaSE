@@ -1,4 +1,4 @@
-package com.heima.Base.Day06;
+package com.heima.Base.Day06.包;
 
 public class Demo1_Package {
     public static void main(String[] args) {

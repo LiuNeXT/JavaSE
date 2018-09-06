@@ -1,4 +1,6 @@
-package com.heima.Base.Day06;
+package com.heima.Base.Day06.包;
+
+import com.heima.Base.Day06.包.Person;
 
 public class Student extends Person {
 

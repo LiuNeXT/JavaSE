@@ -1,4 +1,4 @@
-package com.heima.Base.Day06;
+package com.heima.Base.Day06.包;
 
 public class Person {
     //私有属性
@@ -12,25 +12,24 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-    //Get方法
+
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
-
         this.name = name;
     }
 
     public int getAge() {
-
         return age;
     }
 
     public void setAge(int age) {
-
         this.age = age;
     }
+
 
     protected void print(){
 
