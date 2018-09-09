@@ -1,18 +1,15 @@
-package com.heima.Base.Day06.包;
+package com.heima.Base.Day06.Package;
 
 public class Person {
-    //私有属性
-    private String name;
-    private int age;
 
-    //无参构造
-    public Person(){}
-    //有参构造
-    public  Person(String name,int age){
+    private String name;
+
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
+    private int age;
 
     public String getName() {
         return name;
@@ -30,9 +27,6 @@ public class Person {
         this.age = age;
     }
 
+    int x =10;
 
-    protected void print(){
-
-        System.out.println("Print");
-    }
 }
