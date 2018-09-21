@@ -10,9 +10,7 @@ interface Inter2{
     //public static final int num=10;
     int number=10;
 
-
     //public abstract void print2();
     void print2();
-
 }
 

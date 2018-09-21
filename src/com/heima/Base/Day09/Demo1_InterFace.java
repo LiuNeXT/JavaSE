@@ -3,7 +3,7 @@ package com.heima.Base.Day09;
 public class Demo1_InterFace {
 
     public static void main(String[] args) {
-        ////Inter i = new Inter();		//接口不能被实例化,因为调用抽象方法没有意义
+        //Inter i = new Inter();		//接口不能被实例化,因为调用抽象方法没有意义
         Inter inter = new Demo();       //父类引用指向子类对象
         inter.print();
     }
@@ -11,7 +11,8 @@ public class Demo1_InterFace {
 
 
 interface Inter{
-    //public abstract void print();==等同于下面语句，默认省略public abstract
+    //public abstract void print();
+    // ==等同于下面语句，接口默认省略public(公有) abstract(抽象)
     void print();
 }
 
