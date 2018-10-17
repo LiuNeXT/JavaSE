@@ -4,6 +4,7 @@ public class Test2_Employee {
     public static void main(String[] args) {
 
         Employee wokr1 = new Employee("令狐冲","9527",20000);
+
         wokr1.work();
     }
 }
@@ -19,6 +20,7 @@ class Employee{
         this.id = id;
         this.salary = salary;
     }
+
 
 
     /*
