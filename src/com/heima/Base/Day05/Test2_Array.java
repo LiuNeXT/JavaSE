@@ -10,5 +10,13 @@ public class Test2_Array {
             }
         }
         System.out.println(sum);
+
+        for (int i = 0; i < 10; i++) {
+
+
+
+        }
     }
+
+
 }
