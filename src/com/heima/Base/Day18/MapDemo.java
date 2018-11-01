@@ -11,5 +11,11 @@ public class MapDemo {
 
         Map map = new HashMap();
         System.out.println(map);
+
+
+
     }
+
+
+
 }

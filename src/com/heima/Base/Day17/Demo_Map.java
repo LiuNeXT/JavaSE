@@ -23,5 +23,7 @@ public class Demo_Map {
         //取出
         System.out.println(map.get("Alex"));
         System.out.println(map.get(12));
+
+
     }
 }
