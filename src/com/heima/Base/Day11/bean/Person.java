@@ -9,6 +9,10 @@ public class Person extends Object {
         this.age = age;
     }
 
+    public Person() {
+
+    }
+
     public String getName() {
         return name;
     }

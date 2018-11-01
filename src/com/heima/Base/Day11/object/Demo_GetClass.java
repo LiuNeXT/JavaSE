@@ -2,8 +2,6 @@ package com.heima.Base.Day11.object;
 
 import com.heima.Base.Day11.bean.Student;
 
-import java.util.concurrent.Callable;
-
 public class Demo_GetClass {
     public static void main(String[] args) {
         Student s = new Student("alex", 28);
