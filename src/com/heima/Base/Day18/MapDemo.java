@@ -13,6 +13,6 @@ public class MapDemo {
         System.out.println(map);
 
 
-        System.out.println(map+"Local");
+        System.out.println(map+"Github");
     }
 }
