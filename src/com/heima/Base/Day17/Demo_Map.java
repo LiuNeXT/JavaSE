@@ -19,9 +19,11 @@ public class Demo_Map {
         map.put("Fiona",11);
         map.put("Simon",12);
         map.put("Jack",13);
-        map.put("Tom",14);
-        //取出
+        map.put("Tom",14);//取出
         System.out.println(map.get("Alex"));
         System.out.println(map.get(12));
+
+
+
     }
 }

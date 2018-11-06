@@ -13,6 +13,7 @@ public class Demo2_Array {
         for ( String s1:num) {
             for (String s2:color) {
                 poker.add(s2.concat(s1));
+
             }
         }
         //System.out.println(poker);
