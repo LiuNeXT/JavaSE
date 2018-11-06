@@ -14,5 +14,7 @@ public class MapDemo {
 
 
         System.out.println(map+"Local");
+
+
     }
 }
