@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TestStatic {
+
+    //需要new对象后，用静态里面写
     public static final List<String> list = new ArrayList();
 
     static {
