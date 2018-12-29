@@ -15,7 +15,7 @@ public class Demo1_File {
 
         demo1();
         demo2();
-        File parent = new File("/Users/devloper/");
+        File parent = new File("/Users/devloper/");  //目录构建函数
         String child = "WeChat.jpg";
         File file1 = new File(parent,child);
         System.out.println(file1.exists());
