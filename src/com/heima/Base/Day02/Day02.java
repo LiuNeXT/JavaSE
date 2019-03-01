@@ -18,6 +18,9 @@ public class Day02 {
 
     public static void main(String[] args) {
 
-        System.out.println("nihao");
+        Long l = 1L;
+        System.out.println(l);
+        String s = "string";
+        System.out.println(s);
     }
 }

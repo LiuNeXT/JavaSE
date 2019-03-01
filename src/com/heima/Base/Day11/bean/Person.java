@@ -1,6 +1,7 @@
 package com.heima.Base.Day11.bean;
 
 public class Person extends Object {
+
     private String name;
     private int age;
 
@@ -28,4 +29,12 @@ public class Person extends Object {
     public void setAge(int age) {
         this.age = age;
     }
+
+
+    private  static  void print(){
+        System.out.println("10岁");
+    }
+
+
+
 }

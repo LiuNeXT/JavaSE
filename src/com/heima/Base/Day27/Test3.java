@@ -13,11 +13,12 @@ public class Test3 {
     public static void main(String[] args) throws NoSuchFieldException, IllegalAccessException {
 
         Person alex = new Person("alex", 11);
+
         System.out.println(alex.toString());
 
         //com.heima.Base.Day27.Tool tool = new com.heima.Base.Day27.Tool(alex,"name","fiona");
         com.heima.Base.Day27.Tool tool = new com.heima.Base.Day27.Tool();
-        tool.setProperty(alex,"name","fiona");
+        tool.setProperty(alex, "name", "fiona");
         System.out.println(alex.toString());
     }
 }

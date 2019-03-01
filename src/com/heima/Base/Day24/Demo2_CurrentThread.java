@@ -12,7 +12,7 @@ public class Demo2_CurrentThread {
             @Override
             public void run() {
                 //Thread.currentThread()获取当前正在执行的线程
-                System.out.println(Thread.currentThread().getName()+"  bb");
+                System.out.println(Thread.currentThread().getName());
             }
         }).start();
 
