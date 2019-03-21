@@ -6,11 +6,12 @@ package com.heima.Base.Consumer;
  * @description：
  * @modified By：
  */
-public class Man {
+public class Man extends  Person{
 
     private  String name;
 
     private  Integer age;
+
 
     Man(String name, Integer age) {
         this.name = name;
@@ -25,8 +26,9 @@ public class Man {
         this.name = name;
     }
 
-    public void setAge(Integer age) {
+    public Person setAge(Integer age) {
         this.age = age;
+        return null;
     }
 
     public Integer getAge() {
